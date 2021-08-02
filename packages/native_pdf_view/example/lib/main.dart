@@ -12,7 +12,7 @@ class _MyAppState extends State<MyApp> {
   static final int _initialPage = 2;
   int _actualPageNumber = _initialPage, _allPagesCount = 0;
   bool isSampleDoc = true;
-  PdfController _pdfController;
+  late PdfController _pdfController;
 
   @override
   void initState() {
